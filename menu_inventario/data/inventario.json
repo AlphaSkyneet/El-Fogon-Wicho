@@ -1,0 +1,23 @@
+[
+    {
+      "codigo": "A001",
+      "nombre": "Mute y Arroz",
+      "precio": 18000
+    },
+    {
+      "codigo": "A002",
+      "nombre": "Arepas Rellenas",
+      "precio": 15000
+    },
+    {
+      "codigo": "B001",
+      "nombre": "Gaseosa 350ml",
+      "precio": 4000
+    },
+    {
+      "codigo": "B002",
+      "nombre": "Jugo Natural",
+      "precio": 5000
+    }
+  ]
+  

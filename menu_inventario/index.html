@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menú de Inventario</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🍽️ Menú del Fogon Wicho 🍽️</h1>
+
+  <section id="inventario">
+    <h2>Productos disponibles</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Código</th>
+          <th>Producto</th>
+          <th>Precio</th>
+          <th>Cantidad</th>
+          <th>Agregar</th>
+        </tr>
+      </thead>
+      <tbody id="tablaInventario">
+        <!-- Se rellena con JavaScript -->
+      </tbody>
+    </table>
+  </section>
+
+  <section id="pedidos">
+    <h2>Pedidos Registrados</h2>
+    <ul id="listaPedidos"></ul>
+    <button id="btnLimpiar" class="limpiar">
+        🧹 Limpiar pedidos
+      </button>      
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
